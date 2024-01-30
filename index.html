@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTM - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My task manager</h1>
+        <button type="button">New Task</button>
+    </header>
+    <form>
+        <h2>Add a new task</h2>
+        <input type="text" id="inp-task-name" required placeholder="Task Name">
+        <input type="date" id="inp-task-deadline" required placeholder="Task Deadline">
+        <button id="btn-task-submit" type="submit">Submit</button>
+        <button id="btn-task-cancel" type="reset">Return</button>
+    </form>
+    <table cellspacing="0">
+        <thead>
+            <tr>
+                <th>Task Name</th>
+                <th>Task Deadline</th>
+            </tr>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total Tasks</td>
+                    <td id="total-tasks">0</td>
+                </tr>
+            </tfoot>
+        </thead>
+    </table>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

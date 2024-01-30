@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    background-color: #f3d5a5;
+}
+
+header{
+    background-color: #bab997;
+    padding: 16px 0;
+    display: flex;
+    border-bottom: 16px solid #aaa875;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+header button{
+    margin-left: 16px;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: grey;
+    color: white;
+}
+
+form{
+    background-color: #ecba68;
+    padding: 24px 0;
+    text-align: center;
+    display: none;
+}
+
+form h2{
+    margin-bottom: 16px;
+}
+
+input{
+    padding: 8px;
+}
+
+#btn-task-submit:hover{
+    background-color: #bab997;
+}
+
+#btn-task-cancel:hover{
+    background-color: #ff0f35;    
+}
+
+table{
+    width: 100%;
+}
+
+th{
+        border-bottom: 2px solid black;
+}
+
+th, tfoot{
+    padding: 16px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td{
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+}
+
+tbody td{
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+.completed{
+    text-decoration: line-through;
+}
